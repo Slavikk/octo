@@ -1,0 +1,10 @@
+bootstrap:
+  version: 3.3.7
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/bootstrap/css/bootstrap-theme.min.css: {}
+  js:
+    vendor/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
