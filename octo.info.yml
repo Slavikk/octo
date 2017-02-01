@@ -6,8 +6,10 @@ base theme: false
 
 libraries:
   - octo/bootstrap
+  - octo/webfonts
+  - octo/font-awesome
   - octo/base
-  
+
 regions:
   header_top: 'Header Top'
   header: 'Header'

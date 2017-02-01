@@ -8,3 +8,25 @@ bootstrap:
     vendor/bootstrap/js/bootstrap.min.js: {}
   dependencies:
     - core/jquery
+
+base:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/octo.js: {}
+  dependencies:
+    - core/jquery
+
+webfonts:
+  version: VERSION
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto+Slab: { type: external }
+
+font-awesome:
+  version: 4.7.0
+  css:
+    theme:
+      vendor/font-awesome/css/font-awesome.min.css: {}
