@@ -5,37 +5,9 @@
   </div>
 </div>
 	<div class="header-nav container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
-				<i class="fa fa-bars"></i>
-			</button>
-
-			<h1 class="logo">
-				<a href="index.html" title="Home" rel="home" id="logo">
-					<img src="img/logo.png" alt="Home">
-				</a>
-			</h1>
-		</div>
+    {{ page.header }}
 		<div class="navbar-search">
-			<div class="search-icons">
-				<a class="open-form"><i class="fa fa-search"></i></a>
-				<a class="close-form"><i class="fa fa-times"></i></a>
-			</div>
 
-			<div class="region region-header-search">
-				<div class="search-block-form block" id="block-octo-search" role="search">
-
-					<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
-						<div class="form-item form-type-search form-item-keys form-no-label">
-							<input title="Enter the terms you wish to search for." class="search form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128">
-						</div>
-						<div class="form-actions form-wrapper" id="edit-actions">
-							<input type="submit" id="edit-submit" name="" value="Search" class="button form-submit">
-						</div>
-					</form>
-
-				</div>
-			</div>
 
 		</div>
 		<div class="navbar-main navbar-collapse collapse">
